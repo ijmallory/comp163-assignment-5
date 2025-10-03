@@ -29,3 +29,21 @@ if number > 1:
     else:
         print(f"{number} is prime!")
 print()
+
+#Challenge 3: Multiplication Table Grid
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+print("  ", end="")
+
+#For loop for headline numbers
+for headline in range(1, 11): #The range functions used below start at 1 and since 11 is not included, it's from 1 to 10
+    print(f"{headline:4}", end="")
+print()
+
+#For loop to display the rows, columns, and products for the Multiplication Grid/Table
+for row in range(1, 11):
+    print(f"{row:2}", end=" ")
+    for column in range(1, 11):
+        table_val = row * column
+        print(f"{table_val:3}", end=" ")
+    print()
