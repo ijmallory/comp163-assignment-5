@@ -1,5 +1,5 @@
 # comp163-assignment-5
-#Challenge 1: Number Sequence Generator
+# Challenge 1: Number Sequence Generator
 print("=== Challenge 1: Collatz Conjecture ===")
 current_number = int(input("Enter starting number: "))
 step_count = 0
@@ -16,7 +16,7 @@ print()
 print("Steps:", step_count)
 print()
 
-#Challenge 2: Prime Number Checker
+# Challenge 2: Prime Number Checker
 print("=== Challenge 2: Prime Number Checker ===")
 number = int(input("Enter a number: "))
 
@@ -30,17 +30,17 @@ if number > 1:
         print(f"{number} is prime!")
 print()
 
-#Challenge 3: Multiplication Table Grid
+# Challenge 3: Multiplication Table Grid
 print("=== Challenge 3: Multiplication Table ===")
 print("Multiplication Table:")
 print("  ", end="")
 
-#For loop for headline numbers
+# For loop for headline numbers
 for headline in range(1, 11): #The range functions used below start at 1 and since 11 is not included, it's from 1 to 10
     print(f"{headline:4}", end="")
 print()
 
-#For loop to display the rows, columns, and products for the Multiplication Grid/Table
+# For loop to display the rows, columns, and products for the Multiplication Grid/Table
 for row in range(1, 11):
     print(f"{row:2}", end=" ")
     for column in range(1, 11):
